@@ -11,7 +11,7 @@ Prerequisites: C- or better in IGME-102 or equivalent course and student standin
 - Professor David Schuh
 - Textbook: _Beginning C#_ by Karli Watson, et al.  PDF available for download in the Content section of myCourses.
 - Personal Zoom: https://rit.zoom.us/j/98466640253
-- Slack workspace: https://rit-igme-201-01-2221.slack.com
+- Slack workspace: https://rit-qhhd.slack.com
 - Email: dxsigm@rit.edu
 - Student hours: Wed 6-8pm on https://rit.zoom.us/j/98466640253 and anytime on Slack and myCourses "Help Dropbox" in Assignments
 - Class meeting:
