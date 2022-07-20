@@ -15,7 +15,7 @@ Prerequisites: C- or better in IGME-102 or equivalent course and student standin
 - Email: dxsigm@rit.edu
 - Student hours: Wed 6-8pm on https://rit.zoom.us/j/98466640253 and anytime on Slack and myCourses "Help Dropbox" in Assignments
 - Class meeting:
-    - MWF 12PM - 12:50PM ET at https://rit.zoom.us/j/92793750600
+    - MWF 12PM - 12:50PM ET at https://rit.zoom.us/j/99816448065
     - All lectures will be recorded and available via links which will be posted in the "Announcement" channel on Slack and myCourses
 
 ## Course Goals and Objectives
