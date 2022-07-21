@@ -81,8 +81,10 @@ Assignments never submitted on myCourses, or submitted LATE without a valid excu
 Your engagement in the class will be graded based on attendance, office hour communication, and Slack and Help Dropbox activity.
 
 ### Self-Grading
-I am inviting you to participate in the grading process for the homeworks.  Research shows that self-grading increases student learning, reflection and self-assessment of your progress.  I will post the answers as they are due with the distribution of points for each part of the homework.  You will need to assess your grade against these rubrics.  I will check your work to give feedback, but I will only adjust grades upward if I think you are being too hard on yourself.  As Prof Gardner wrote: 
-Contrary to our formalized education that is about control and hierarchy, real learning about compassion, understanding, and intrinsic motivation can never be nurtured through fear, anxiety, or punishment. It is only through the thoughtful cultivation of curiosity, care, and innate wonder that we can actually learn. Anything else is only indoctrination.
+I am inviting you to participate in the grading process for the homeworks.  Research shows that self-grading increases student learning, reflection and self-assessment of your progress.  I will post the answers as they are due with the distribution of points for each part of the homework.  You will need to assess your grade against these rubrics.  I will check your work to give feedback, but I will only adjust grades upward if I think you are being too hard on yourself.  As Prof Gardner wrote:
+
+*Contrary to our formalized education that is about control and hierarchy, real learning about compassion, understanding, and intrinsic motivation can never be nurtured through fear, anxiety, or punishment. It is only through the thoughtful cultivation of curiosity, care, and innate wonder that we can actually learn. Anything else is only indoctrination.*
+
 References for your curiosity:
 - https://www.insidehighered.com/views/2021/01/13/students-learn-more-when-grading-themselves-opinion
 - http://maateachingtidbits.blogspot.com/2017/10/5-benefits-of-having-students-grade.html
