@@ -37,7 +37,7 @@ We will assess all of this work with in-class exercises, homework, projects, and
 - Unit 2 (weeks 4-6): Object Oriented Programming (textbook chapters 8-11, pdf and ppt documents, schUML documentation)
 - Unit 3 (weeks 7-12): Windows Forms Programming (Windows Forms Controls Documentation)
 - Unit 4 (weeks 13-15): Data Structures (pdf and ppt documents)
-- 2 Milestone Team Project Documentation Revisions
+- Team Project Documentation Revision Milestones
 - Final Project Presentations during scheduled final exam time
 
 ## Course Materials and Communication
