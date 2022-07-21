@@ -80,6 +80,15 @@ Assignments never submitted on myCourses, or submitted LATE without a valid excu
 ### Attendance, Participation and Engagement (5%)
 Your engagement in the class will be graded based on attendance, office hour communication, and Slack and Help Dropbox activity.
 
+### Self-Grading
+I am inviting you to participate in the grading process for the homeworks.  Research shows that self-grading increases student learning, reflection and self-assessment of your progress.  I will post the answers as they are due with the distribution of points for each part of the homework.  You will need to assess your grade against these rubrics.  I will check your work to give feedback, but I will only adjust grades upward if I think you are being too hard on yourself.  As Prof Gardner wrote: 
+Contrary to our formalized education that is about control and hierarchy, real learning about compassion, understanding, and intrinsic motivation can never be nurtured through fear, anxiety, or punishment. It is only through the thoughtful cultivation of curiosity, care, and innate wonder that we can actually learn. Anything else is only indoctrination.
+References for your curiosity:
+- https://www.insidehighered.com/views/2021/01/13/students-learn-more-when-grading-themselves-opinion
+- http://maateachingtidbits.blogspot.com/2017/10/5-benefits-of-having-students-grade.html
+- https://pittnews.com/article/170641/opinions/opinion-students-should-grade-themselves/
+- https://medium.com/@levigardner1/why-i-let-my-students-partially-grade-themselves-9f17b276f141
+
 ### Policy on Incomplete Grades
 Incomplete grades will be given only in the most exceptional circumstances, solely for issues that arise AFTER the 'W' deadline has passed, and then only by prior arrangement with the professor. Being overcommitted, overwhelmed, and/or not having enough time to complete your coursework is not sufficient justification for an "I". Instead, meet with the professor as early as possible in the semester if you're having difficulty.
 
