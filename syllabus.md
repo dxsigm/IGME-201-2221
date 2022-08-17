@@ -33,7 +33,7 @@ We will assess all of this work with in-class exercises, homework, projects, and
 
 ## Course Structure
 - Unit 1 (weeks 1-3): C# Syntax and Procedural Programming (textbook chapters 1-6)
-- In-class Team Project Presentations End of Week 4
+- In-class Team Project Pitches End of Week 4
 - Unit 2 (weeks 4-6): Object Oriented Programming (textbook chapters 8-11, pdf and ppt documents, schUML documentation)
 - Unit 3 (weeks 7-12): Windows Forms Programming (Windows Forms Controls Documentation)
 - Unit 4 (weeks 13-15): Data Structures (pdf and ppt documents)
