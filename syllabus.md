@@ -13,7 +13,7 @@ Prerequisites: C- or better in IGME-102 or equivalent course and student standin
 - Personal Zoom: https://rit.zoom.us/j/98466640253
 - Slack workspace: https://rit-qhhd.slack.com
 - Email: dxsigm@rit.edu
-- Student hours: Wed 6-8pm on https://rit.zoom.us/j/98466640253 and anytime on Slack and myCourses "Help Dropbox" in Assignments
+- Student hours: Wed 6-8pm on https://rit.zoom.us/j/98466640253 and anytime via Slack and myCourses "Help Dropbox" in Assignments
 - Class meeting:
     - MWF 12PM - 12:50PM ET at https://rit.zoom.us/j/99816448065
     - All lectures will be recorded and available via links which will be posted in the "Announcement" channel on Slack and myCourses
@@ -33,26 +33,27 @@ We will assess all of this work with in-class exercises, homework, projects, and
 
 ## Course Structure
 - Unit 1 (weeks 1-3): C# Syntax and Procedural Programming (textbook chapters 1-6)
-- In-class Team Project Presentations End of Week 4
+- In-class Team Project Pitches End of Week 4
 - Unit 2 (weeks 4-6): Object Oriented Programming (textbook chapters 8-11, pdf and ppt documents, schUML documentation)
 - Unit 3 (weeks 7-12): Windows Forms Programming (Windows Forms Controls Documentation)
 - Unit 4 (weeks 13-15): Data Structures (pdf and ppt documents)
-- In-class Final Project Presentations Last Lecture in Week 15
+- Team Project Documentation Revision Milestones
+- Final Project Presentations during scheduled final exam time
 
 ## Course Materials and Communication
 _Beginning C#_ by Karli Watson, et al.
 
-Most course materials and example code will be distributed via GitHub and myCourses, and you will also be learning how to use Git and GitHub to manage your own project files.
+Most course materials and example code will be distributed via GitHub and myCourses, and you will also be learning how to use GitHub to manage your own project files.
 
 myCourses will be used for announcements, links to course content, quizzes and exams, assignment submissions, and grading.
 
-A Slack workspace (https://rit-igme-201-01-2221.slack.com) has been created to provide an avenue of communication between professors, teaching assistants, and students. You should use Slack as your primary way for getting in touch with your professor (unless instructed otherwise) and use email only for ‘official business’ where a more formal record is required.  The Slack server will be either deleted or wiped clean at the end of the semester, so be sure to ‘save’ any great piece of information you see on it elsewhere.  Please request membership in our Slack workspace within the first day of classes.
+A Slack workspace (https://rit-qhhd.slack.com) has been created to provide an avenue of communication between professors, teaching assistants, and students. You should use Slack as your primary way for getting in touch with your professor (unless instructed otherwise) and use email only for ‘official business’ where a more formal record is required.  The Slack server will be either deleted or wiped clean at the end of the semester, so be sure to ‘save’ any great piece of information you see on it elsewhere.  Please request membership in our Slack workspace within the first day of classes.
 
 ## Attendance
-Lectures will start promptly at the beginning of class, and will be followed by an in-class assignment or exercise that you are expected to work on until the end of the meeting (i.e. no leaving early unless specifically dismissed).  Due to the impact of COVID-19, I understand that your ability to attend every lecture may be affected.  Therefore your attendance is based on your overall engagement in the course and not just being present for the on-line lectures.
+Lectures will start promptly at the beginning of class, and may be followed by an in-class assignment or exercise that you are expected to work on until the end of the meeting (i.e. no leaving early unless specifically dismissed).  Due to the impact of COVID-19, I understand that your ability to attend every lecture may be affected.  Therefore your attendance is based on your overall engagement in the course and not just being present for the on-line lectures.
 
 ## Grading
-Final course grades are determined using the following scale:
+Final course grades are determined using the following scale (pluses and minuses will be applied judiciously):
 
 | Class Average | Grade |
 | ------------- | ----- |
@@ -63,7 +64,7 @@ Final course grades are determined using the following scale:
 | <65%	| F |
 
 ### Team Project (25%)
--	Presentation-rich Front-end User Application due last day of finals
+-	Presentation-rich Front-end User Application due last day of finals and presented during the scheduled final exam time.
 
 ### Exams (40%)
 These take-home exams, for which you will have at least 9 days to complete, consist of all manner of questions styles (multiple choice, true/false, matching, etc) as well as "write some code" questions. There will be no make-ups or re-takes allowed without prior permission.
@@ -79,6 +80,25 @@ Assignments never submitted on myCourses, or submitted LATE without a valid excu
 
 ### Attendance, Participation and Engagement (5%)
 Your engagement in the class will be graded based on attendance, office hour communication, and Slack and Help Dropbox activity.
+
+### Self-Grading
+I am inviting you to participate in the grading process for the homeworks.  Research shows that self-grading increases student learning, reflection and self-assessment of your progress.  I will post the answers as they are due with the distribution of points for each part of the homework.  You will need to assess your grade against these rubrics.  I **will** check your work and give you feedback, but I will **only** adjust grades **upward**.  I trust the evolution of your self-assessment skills, and I will add points if I think you are being too critical of yourself.
+
+As Prof Gardner wrote:
+
+*Contrary to our formalized education that is about control and hierarchy, real learning about compassion, understanding, and intrinsic motivation can never be nurtured through fear, anxiety, or punishment. It is only through the thoughtful cultivation of curiosity, care, and innate wonder that we can actually learn. Anything else is only indoctrination.*
+
+References for your curiosity:
+- https://www.insidehighered.com/views/2021/01/13/students-learn-more-when-grading-themselves-opinion
+- http://maateachingtidbits.blogspot.com/2017/10/5-benefits-of-having-students-grade.html
+- https://pittnews.com/article/170641/opinions/opinion-students-should-grade-themselves/
+- https://medium.com/@levigardner1/why-i-let-my-students-partially-grade-themselves-9f17b276f141
+
+### Pacing
+There are 30 homeworks, 3 unit tests, 1 final exam, a team project pitch, documentation submissions and presentations. The first 2 units of the course are intended to make you proficient in C# procedural and object oriented programming, therefore there are approx 3 homeworks a week to give you plenty of practice.  Unit 3 focuses on Windows Forms Programming and the homeworks primarily are tutorials to give you UI/UX practice with the toolbox of controls you will need to implement your team project.  The homeworks become lighter as the semester progresses to give you more time to work with your team on the final project.  I am expecting you to apply yourself to the course material for at least 2 hours per 1 hour lecture.  While at college your job is to be a student, and that should be a full-time job of at least 40 hours per week across all of your courses.
+
+### Extra Credit
+I do want everyone to earn A's!  Therefore there will be at least 5 extra credit assignments which can **each** add up to 5 points to your **final grade**.  But I only grant 5 points if they are done proficiently, with ample comments and well-designed structure.  These will be assigned as we learn the relevant material, and they are due approximately a week before the end of final exams.
 
 ### Policy on Incomplete Grades
 Incomplete grades will be given only in the most exceptional circumstances, solely for issues that arise AFTER the 'W' deadline has passed, and then only by prior arrangement with the professor. Being overcommitted, overwhelmed, and/or not having enough time to complete your coursework is not sufficient justification for an "I". Instead, meet with the professor as early as possible in the semester if you're having difficulty.
