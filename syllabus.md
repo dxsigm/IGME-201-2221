@@ -16,6 +16,7 @@ Prerequisites: C- or better in IGME-102 or equivalent course and student standin
 - Office hours: Wed 7-9pm on https://rit.zoom.us/j/98466640253 and anytime via Slack and myCourses "Help Dropbox" in Assignments
 - Class meeting:
     - MWF 12PM - 12:50PM ET at https://rit.zoom.us/j/99816448065
+    - Final Project Presentations: Friday 12/9/2022 10:45:00 AM - 1:15:00 PM at https://rit.zoom.us/j/99816448065
     - All lectures will be recorded and available via links which will be posted in the "Announcement" channel on Slack and myCourses
 
 ## Course Goals and Objectives
@@ -38,7 +39,7 @@ We will assess all of this work with in-class exercises, homework, projects, and
 - Unit 3 (weeks 7-12): Windows Forms Programming (Windows Forms Controls Documentation)
 - Unit 4 (weeks 13-15): Data Structures (pdf and ppt documents)
 - Team Project Documentation Revision Milestones
-- Final Project Presentations during scheduled final exam time
+- Final Project Presentations during scheduled final exam time (Friday 12/9/2022 10:45:00 AM - 1:15:00 PM)
 
 ## Course Materials and Communication
 _Beginning C#_ by Karli Watson, et al.
