@@ -131,21 +131,20 @@ namespace FavoriteColorAndNumber
             // int nFavNumber = null;
 
             // we can override the data type support the null pointer by adding the "?" suffix to the primitive data type
-            int nFavNumber = 0;
+            int? nFavNumber = 0;
             
 
             // code blocks define the scope of variables
             {
-                int n = 5;
+                int? n = 5;
 
-                //int nFavNumber = 0.5;
+                // we cannot declare another variable of the same name
+                //int nFavNumber = 0;
 
                 n = nFavNumber;
-
             }
 
-            int n = 3;
-
+            // n is not available here
             //n = 2;
 
             // comments can be created with double slash
@@ -165,7 +164,10 @@ namespace FavoriteColorAndNumber
             // we need a variable and the equal operator to copy the Console input to our variable
             sFavColor = Console.ReadLine();
 
+            // pass sFavColor by value (which passes a copy of sFavColor)
             PrintMyColor(sFavColor);
+
+            // pass sFavColor by reference (which passes a pointer to sFavColor)
             PrintMyColorByReference(ref sFavColor);
 
             // we can set our ColorNameSpace object to the string as well using the alias
@@ -180,39 +182,51 @@ namespace FavoriteColorAndNumber
             // you must write code that validates all user input and does not crash!
             
             string sNumber = "";
+
+
+            // int and double have a TryParse() method which encapsulates the try...catch
+            // to make coding easier
+            // the method signatures are:
+            //      int.TryParse(string, out int)
+            //      double.TryParse(string, out int)
+
+            // TryParse() requires int as the second variable, it does not support int?
+            // create int variable to use
+            int nFavNumberNotNullable = 0;
             do
             {
                 Console.Write("Enter your favorite number:\t");
-                sNumber = Console.ReadLine());
-            } while (!int.TryParse(sNumber, out nFavNumber));
+                sNumber = Console.ReadLine();
+            } while (!int.TryParse(sNumber, out nFavNumberNotNullable));
 
-            //double.TryParse()
+            // copy the int to the int?
+            nFavNumber = nFavNumberNotNullable;
 
             // the do...while() loop always executes the loop at least once
             // and checks the while condition after the first execution
-            do
-            {
-                // Convert.ToInt32() will generate a runtime error (exception) if the passed in string is not a valid number
-                // therefore, we "try" to convert it
-                try
-                {
-                    // get the user's input and store it in a variable
-                    nFavNumber = Convert.ToInt32(System.Console.ReadLine());
-
-                    // store the favorite number in the favorite number namespace
-                    Number.NumberClass.nFavNumber = nFavNumber;
-                }
-                // and "catch" any exception that occurs
-                catch
-                {
-                    // by asking the user to enter an integer
-                    Console.WriteLine("Please enter an integer");
-                }
-
-                // and we put this in a loop while nFavNumber is null
-                // the advantage of initializing nFavNumber to a null pointer is that we know whether they entered a valid number or not
-                // if we initialize it to 0 or 123456, those may be someone's favorite number, so we wouldn't know that they entered those numbers!
-            } while (nFavNumber == null);
+            //do
+            //{
+            //    // Convert.ToInt32() will generate a runtime error (exception) if the passed in string is not a valid number
+            //    // therefore, we "try" to convert it
+            //    try
+            //    {
+            //        // get the user's input and store it in a variable
+            //        nFavNumber = Convert.ToInt32(System.Console.ReadLine());
+            //
+            //        // store the favorite number in the favorite number namespace
+            //        Number.NumberClass.nFavNumber = nFavNumber;
+            //    }
+            //    // and "catch" any exception that occurs
+            //    catch
+            //    {
+            //        // by asking the user to enter an integer
+            //        Console.WriteLine("Please enter an integer");
+            //    }
+            //
+            //    // and we put this in a loop while nFavNumber is null
+            //    // the advantage of initializing nFavNumber to a null pointer is that we know whether they entered a valid number or not
+            //    // if we initialize it to 0 or 123456, those may be someone's favorite number, so we wouldn't know that they entered those numbers!
+            //} while (nFavNumber == null);
 
             // the while() loop may never execute if the condition is false, since the condition is tested before entering the loop
             //while(nFavNumber != null)
