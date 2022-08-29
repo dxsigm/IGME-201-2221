@@ -16,7 +16,7 @@ Prerequisites: C- or better in IGME-102 or equivalent course and student standin
 - Office hours: Wed 7-9pm on https://rit.zoom.us/j/98466640253 and anytime via Slack and myCourses "Help Dropbox" in Assignments
 - Class meeting:
     - MWF 12PM - 12:50PM ET at https://rit.zoom.us/j/99816448065
-    - Final Project Presentations: Friday 12/9/2022 10:45:00 AM - 1:15:00 PM at https://rit.zoom.us/j/99816448065
+    - Final Project Presentations: Friday Dec 9, 2022 10:45AM - 1:15PM at https://rit.zoom.us/j/99816448065
     - All lectures will be recorded and available via links which will be posted in the "Announcement" channel on Slack and myCourses
 
 ## Course Goals and Objectives
