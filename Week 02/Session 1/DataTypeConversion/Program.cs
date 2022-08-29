@@ -54,6 +54,7 @@ namespace DataTypeConversion
                 // checked will raise a run-time exception if data will be lost
                 byteNum = checked((byte)shortInt);
 
+                // Convert.ToInt32()
                 // we can also explicitly cast using the Convert Class
                 // Convert also raises run-time exceptions if data will be lost
                 byteNum = Convert.ToByte(shortInt);
@@ -70,11 +71,14 @@ namespace DataTypeConversion
 
                         intNum = Convert.ToInt32(sNumber);
 
+                        bValid = int.TryParse(sNumber, out intNum);
+
                         // introducing the Parse() method
                         // each data type has a Parse() method to parse a string to the data type
                         // for example, Int32 which is the same as int
                         intNum = Int32.Parse(sNumber);
                         intNum = int.Parse(sNumber);
+
 
                         bValid = true;
                     }
