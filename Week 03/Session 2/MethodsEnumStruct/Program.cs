@@ -19,14 +19,6 @@ namespace MethodsEnumStruct
     }
 
 
-    // example of a simple structure that does not have a constructor
-    public struct NoConstructorStruct
-    {
-        public int nQty;
-        public string sDesc;
-    }
-
-
     struct StudentStruct
     {
         // member variables with defined accessibility
@@ -179,6 +171,20 @@ namespace MethodsEnumStruct
     // Restrictions: Only contains code snippets.  
     static class Examples
     {
+        // enums can be declared within a namespace or within a class
+        enum Test
+        {
+            one, two, three
+        }
+
+        // structs can be declared within a namespace or within a class
+        // example of a simple structure that does not have a constructor
+        public struct NoConstructorStruct
+        {
+            public int nQty;
+            public string sDesc;
+        }
+
         // Method: Main
         // Purpose: The main entry point for the executable. Code snippet examples.
         // Restrictions: None

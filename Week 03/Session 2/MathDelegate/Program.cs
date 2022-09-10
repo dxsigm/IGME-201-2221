@@ -22,6 +22,7 @@ namespace MathDelegate
 
     static internal class Program
     {
+        // delegate method data type can be declared within namespace or within a class
         //delegate double MathFunction(double n1, double n2);
 
         static void Main(string[] args)
