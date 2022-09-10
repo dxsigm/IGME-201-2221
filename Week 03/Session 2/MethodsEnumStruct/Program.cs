@@ -36,7 +36,7 @@ namespace MethodsEnumStruct
         public double grade;
         private string password;
 
-
+        // constructor: note that if you implement a constructor it must initialize every field in the struct
         public StudentStruct(string sName, double dGrade)
         {
             this.eCollegeYear = CollegeYear.freshman;
