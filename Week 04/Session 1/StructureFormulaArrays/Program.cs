@@ -149,6 +149,11 @@ namespace Arrays
                 // for -4 <= x <= 4 in 0.1 increments: there are 81 values of x
                 // for -2 <= y <= 5 in 0.2 increments: there are 36 values of y
 
+                //Given the formula z = 3y2 + 2x - 1 write a console application to calculate z for the following ranges of x and y:
+//a.  - 1 <= x <= 1 in 0.1 increments
+//b.  1 <= y <= 4 in 0.1 increments
+
+
                 double x = 0;
                 double y = 0;
                 double z = 0;
@@ -157,29 +162,31 @@ namespace Arrays
                 int nY = 0;
 
                 // we declare our 3 dimensional array to hold:
-                //        81 values of x
+                //        21 values of x
                 //        36 values of y for each value of x
                 //        3 values for each data point: the x, y and z
-                double[,,] zFunc = new double[81, 36, 3];
+                double[,,] zFunc = new double[21, 31, 3];
 
-                for (x = -4; x <= 4; x += 0.1, nX++)
+                for (x = -1; x <= 1; x += 0.1, nX++)
                 {
                     x = Math.Round(x, 1);
 
                     // start with the 0'th "y" bucket for this value of x
                     nY = 0;
 
-                    for (y = -2; y <= 5; y += 0.2, ++nY)
+                    for (y = 1; y <= 4; y += 0.1, ++nY)
                     {
                         y = Math.Round(y, 1);
 
-                        z = 2 * Math.Pow(x, 3) + 3 * Math.Pow(y, 3) + 6;
+                        z = 3 * Math.Pow(y, 2) + 2 * x - 1;
 
                         z = Math.Round(z, 3);
 
                         zFunc[nX, nY, 0] = x;
                         zFunc[nX, nY, 1] = y;
                         zFunc[nX, nY, 2] = z;
+
+                        Console.WriteLine($"x = {zFunc[nX, nY, 0]}  y = {zFunc[nX, nY, 1]}   z = {zFunc[nX, nY, 2]}");
                     }
                 }
             }
@@ -193,7 +200,7 @@ namespace Arrays
                 jaggedIntArray[0][0] = 1;
                 jaggedIntArray[0][1] = 2;
                 jaggedIntArray[0][2] = 3;
-                jaggedIntArray[0][3] = 5;
+                //jaggedIntArray[0][3] = 5;
 
                 jaggedIntArray[1][0] = 1;
                 jaggedIntArray[1][1] = 2;
