@@ -17,40 +17,15 @@ namespace SongLib
 //
 //[+IPlay]^[+Game]
 
-    public class Artist : ICloneable
-    {
-        public string homeTown;
-        public DateTime dateofbirth;
-        public List<string> albumTitles = new List<string>();
-
-        public Object Clone()
-        {
-            return this.MemberwiseClone();
-        }
-
-        public Object DeepCopy()
-        {
-            Artist copyArtist = (Artist)this.MemberwiseClone();
-
-            // albumTitles is a reference variable, so we need to copy the list of strings into copyArtist.albumTitles
-            // GetRange() returns a new copy of the list
-            copyArtist.albumTitles = this.albumTitles.GetRange(0, this.albumTitles.Count);
-
-            return copyArtist;
-        }
-
-    }
 
     //[+A:Song|+year:int;+lyrics:string;+composer:string;+artist:string|+Name:string;+Play():a;+Copy():v;+Dance();+Sing()]
-    public abstract class Song : ISong, IPlay, ICloneable
+    public abstract class Song : ISong, IPlay
     {
         public int year;
         public string lyrics;
         public string composer;
         public string artist;
         public int nRating;
-
-        Artist artistDetails = new Artist();
 
         public string Name
         {
@@ -74,34 +49,6 @@ namespace SongLib
         {
             // la la la
         }
-
-        public Object Clone()
-        {
-            // make a shallow copy
-            // this calls the new command to create a new object, and it copies all of the value data types from the first level of the class
-            return this.MemberwiseClone();
-        }
-
-        // this does deep copy
-        public Song DeepCopySongObject()
-        {
-            // this calls the new command to create a new object, and it copies all of the value data types from the first level of the class
-            Song newObject = (Song)this.MemberwiseClone();
-
-            // we can implement a DeepCopy() method in each child class
-            newObject.artistDetails = (Artist)this.artistDetails.DeepCopy();
-
-            // or do a shallow copy 
-            //newObject.artistDetails = (Artist)this.artistDetails.Clone();
-            
-            // or manually copy the contained class object
-            //newObject.artistDetails = new Artist();
-            //newObject.artistDetails.dateofbirth = this.artistDetails.dateofbirth;
-            //newObject.artistDetails.homeTown = this.artistDetails.homeTown;
-
-            return newObject;
-        }
-
     }
 
 
@@ -118,7 +65,6 @@ namespace SongLib
             // fast forward to the counter
             // press the play button
         }
-
     }
 
     //[+VinylSong|+recordName:string;+side:int;+track:int|+Play():o]

@@ -28,7 +28,6 @@ namespace SongApp
 
             SongStruct anotherSongStruct;
             anotherSongStruct = mySongStruct;
-            anotherSongStruct.name = "Bridge Over Troubled Water";
 
             // I now have 2 SongStruct variables which are independent of each other
 
@@ -93,52 +92,9 @@ namespace SongApp
             objectList.Add(tapeSong);
             objectList.Add("David");
             objectList.Add(2);
-
+            
             // so how do we make a copy of a class object if we can't just use a = b like we can with structures or ints or strings, etc?
             // stay tuned!
-            
-            // shallow and deep copying
-            copyTapeSong = (TapeSong)tapeSong.Clone();
-
-            Game chessGame = new Game();
-
-            PlayObject(tapeSong);
-            PlayObject(chessGame);
-        }
-
-        // we can always any parameter as an Object, since everything inherits from Object!
-        static void PlayObject(Object songObject)
-
-        // this will accept anything that derives from the Song class
-        //static void PlayObject(Song songObject)
-
-        // this will accept anything that derives from the TapeSong class
-        //static void PlayObject(TapeSong songObject)
-
-        // this will accept anything that derives from the IPlay interface
-        //static void PlayObject(IPlay songObject)
-
-        // this will accept anything that derives from the ISong interface
-        //static void PlayObject(ISong songObject)
-        {
-            ((IPlay)songObject).Play();
-
-            // the "is" operator to check object type
-            // will return true if the variable inherits from or is IPlay
-            if( songObject is IPlay)
-            {
-                IPlay iPlay;
-                iPlay = (IPlay)songObject;
-                iPlay.Play();
-            }
-
-            // the old school GetType() method for checking object type
-            if( songObject.GetType() == typeof(Song))
-            {
-
-            }
-
-
         }
     }
 }
