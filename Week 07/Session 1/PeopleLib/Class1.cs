@@ -70,6 +70,7 @@ namespace PeopleLib
         {
             return this.name.CompareTo(p.name);
         }
+
     }
 
     public interface IStudent
