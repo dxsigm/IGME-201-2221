@@ -5,7 +5,7 @@
 [+A:Person|+name:string;+age:int;+email:string;-licenseId:int|+LicenseId:int;+Work():v]
 [+Student|+gpa:double|+Eat();+Party()]
 [+Teacher|+specialty:string|+Work();+Eat()]
-[+People|sortedList:SortedList<string,Person>|this:email;+Remove(email:string)]
+[+People|sortedList:SortedList<string,Person>|+this:email;+Remove(email:string)]
 
 [+IPerson|Eat()]
 [+IStudent|Party()]
