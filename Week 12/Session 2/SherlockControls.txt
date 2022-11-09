@@ -1,0 +1,12 @@
+List of Windows Forms Controls and behavior
+1. Form "Sherlock" (control box disabled)
+2. Label control "The quick..."
+3. TextBox control: does something with each keypress, does not show characters that don't match the label control.  When all correct characters are entered, then I can type anything.
+4. GroupBox with url title
+5. WebBrowser control fill docked within the GroupBox navigating to the url and DOM manipulation on the anchor tags
+6. Exit Button starting as disabled and is enabled when textbox matches "The quick..." within the 20 second countdown
+7. PictureBox with sad face shows when wrong character is typed
+8. Label control for countdown shows in red larger text
+9. Timer control counting down from 20 and clears the TextBox when expires
+10. PictureBox with happy face shows when correct char is typed
+
