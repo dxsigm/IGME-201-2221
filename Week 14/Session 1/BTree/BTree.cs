@@ -208,13 +208,13 @@ namespace BTree
             node = new BTree(25, null, false);
             root = node;
 
-            node = new BTree(13, root);
-            node = new BTree(38, root);
+            node = new BTree(13, root, false);
+            node = new BTree(38, root, false);
 
-            node = new BTree(6, root);
-            node = new BTree(19, root);
-            node = new BTree(32, root);
-            node = new BTree(44, root);
+            node = new BTree(6, root, false);
+            node = new BTree(19, root, false);
+            node = new BTree(32, root, false);
+            node = new BTree(44, root, false);
 
 
             for (int i = 0; i < 30; ++i)
